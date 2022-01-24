@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <style>
+            h1{
+                color:wheat;
+            }
+            body{
+                background-image: 
+            linear-gradient(rgba(0, 0, 0.5, 0.5), rgba(0, 0, 0, 0.5)),
+            url('img.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+            }
+            .typed{
+                margin-left: 30%;
+                margin-top: 20%;
+                font-size: 40px;
+            }
+            .typed .anim{
+                color:aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="typed">
+            <h1>Hello ,<br> <span class ="anim"> </span></h1>
+        </div>
+        <script src="typed.js"></script>
+        <script>
+    var typed = new Typed('.anim',
+    {
+    strings:['Good Day',
+'Best Of Luck','Have a Good Day'],
+        typeSpeed:75,
+        backSpeed:50,
+        loop:true,
+});
+          </script>
+    </body>
+</html>
+
+//install typed.js
